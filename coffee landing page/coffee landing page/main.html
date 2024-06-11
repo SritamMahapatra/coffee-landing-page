@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Awesome Coffee Co.</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="heading">Awesome Coffee Co.</div>
+            <span class="sideMenuButton" onclick="openNavbar()">
+                &#9776
+            </span>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="sideNavigationBar" id="sideNavigationBar">
+            <a href="#" class="closeButton" onclick="closeNavbar()">
+                &#x274C
+            </a>
+            <a href="#Home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="line" id="Home">
+            <div class="side1">
+                <h1>Welcome to Awesome Coffee Co.</h1>
+                <button>
+                    <a href="#about">Learn More</a>
+                </button>
+            </div>
+            <div class="side2">
+                <img src="coffeepage.jpg" alt="Coffee" width="800">
+            </div>
+        </div>
+
+        <section class="about" id="about">
+            <div class="content">
+                <div class="title">
+                    <span>About Us</span>
+                </div>
+                <p>At Awesome Coffee Co., we believe in providing the best coffee experience for our customers. Our
+                    beans are sourced from the finest coffee farms around the world and roasted to perfection.</p>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="content">
+                <div class="title1">
+                    <span>Our Menu</span>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">Espresso</div>
+                        <p>Rich and smooth espresso, perfect for a quick pick-me-up.</p>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Latte</div>
+                        <p>Creamy latte with a perfect balance of espresso and steamed milk.</p>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Cappuccino</div>
+                        <p>Classic cappuccino with a rich, velvety foam.</p>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Americano</div>
+                        <p>Smooth and rich, with a bold coffee flavor.</p>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Mocha</div>
+                        <p>A delicious blend of espresso, chocolate, and steamed milk.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title"><span>Contact Us</span></div>
+                <div class="contactMenu">
+                    <div class="input1">
+                        <div class="label1">Your Name</div>
+                        <div class="input2">
+                            <input type="text" placeholder="Enter your Name here">
+                        </div>
+                        <div class="label1">
+                            <label>Your Email</label>
+                        </div>
+                        <div class="input2">
+                            <input type="email" placeholder="Enter your Email here">
+                        </div>
+                        <div class="label1">
+                            <label>Your Message</label>
+                        </div>
+                        <div class="input2">
+                            <textarea placeholder="Enter your Message here"></textarea>
+                        </div>
+                        <div class="button">
+                            <button>Send</button>
+                        </div>
+                    </div>
+                    <div class="input3">
+                        <div class="rightside1">
+                            <div class="title1">
+                                <span>Contact Information</span>
+                            </div>
+                            <div class="content1">
+                                123 Coffee St., Bean Town, CA 90210
+                            </div>
+                            <div class="title1">
+                                <span>More Information</span>
+                            </div>
+                            <div class="content1">
+                                We are committed to providing the best coffee experience. Come visit us or contact us
+                                for any inquiries.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <span>
+                    &copy; 2024 Awesome Coffee Co. All rights reserved.
+                </span>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+
+</html>
